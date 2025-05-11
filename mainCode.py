@@ -41,7 +41,7 @@ def render():
     canvas.delete("all")
 
     #drawSquare(100,100, 400,400)
-    drawCube(200,200,100, 500,500,150, canZ)
+    drawCube(100,100,100, 400,400,150, canZ)
 
     window.after(16, render)
 
